@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MentorsBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xY9-46-4iF">
+                                <rect key="frame" x="50" y="84" width="314" height="314"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xY9-46-4iF" secondAttribute="height" multiplier="1:1" id="zBd-2u-Brx"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rrG-ct-T1A">
+                                <rect key="frame" x="246" y="433" width="148" height="83"/>
+                                <color key="backgroundColor" red="0.86274509799999999" green="0.0" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="→"/>
+                                <connections>
+                                    <action selector="next" destination="BYZ-38-t0r" eventType="touchUpInside" id="ggn-WJ-VPb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6lJ-3J-EMY">
+                                <rect key="frame" x="20" y="433" width="151" height="83"/>
+                                <color key="backgroundColor" red="0.86274509799999999" green="0.0" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="←"/>
+                                <connections>
+                                    <action selector="pre" destination="BYZ-38-t0r" eventType="touchUpInside" id="pSI-CV-xls"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="コース" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="giD-eM-fOP">
+                                <rect key="frame" x="129" y="620" width="157" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="名前" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgf-bD-CMw">
+                                <rect key="frame" x="130" y="691" width="156" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rrG-ct-T1A" secondAttribute="trailing" constant="20" id="4ff-N1-Mzr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kgf-bD-CMw" secondAttribute="bottom" constant="150" id="6Ev-Ek-s7T"/>
+                            <constraint firstItem="kgf-bD-CMw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bus-ev-l4n"/>
+                            <constraint firstItem="6lJ-3J-EMY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EMg-eI-CMZ"/>
+                            <constraint firstItem="giD-eM-fOP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Jac-VX-P0p"/>
+                            <constraint firstItem="6lJ-3J-EMY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="NE4-dT-Jru"/>
+                            <constraint firstItem="xY9-46-4iF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="40" id="NZ0-Ut-Tcd"/>
+                            <constraint firstItem="xY9-46-4iF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="W7p-AS-X3D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xY9-46-4iF" secondAttribute="trailing" constant="50" id="XFU-Ys-jgx"/>
+                            <constraint firstItem="kgf-bD-CMw" firstAttribute="top" secondItem="giD-eM-fOP" secondAttribute="bottom" constant="50" id="XOB-M1-zrO"/>
+                            <constraint firstItem="xY9-46-4iF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gfC-Df-CQH"/>
+                            <constraint firstItem="rrG-ct-T1A" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="q8m-cY-MAi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="courseLabel" destination="giD-eM-fOP" id="B9B-KX-SCk"/>
+                        <outlet property="imageView" destination="xY9-46-4iF" id="EXt-bN-UHP"/>
+                        <outlet property="nameLabel" destination="kgf-bD-CMw" id="6zX-V8-Gtw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="75.669642857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

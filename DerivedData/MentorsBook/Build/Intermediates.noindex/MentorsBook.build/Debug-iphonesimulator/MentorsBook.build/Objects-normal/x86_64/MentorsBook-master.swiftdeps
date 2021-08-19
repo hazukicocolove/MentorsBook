@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "22264be3a9b4a82e456b36e0da8f8fc4"
+build_time: [1629355443, 651297000]
+inputs:
+  "/Users/hazuki/Desktop/13/la/lifeistech/MentorsBook/MentorsBook/Mentor.swift": [1629352418, 931052764]
+  "/Users/hazuki/Desktop/13/la/lifeistech/MentorsBook/MentorsBook/ViewController.swift": [1629355443, 563838249]
+  "/Users/hazuki/Desktop/13/la/lifeistech/MentorsBook/MentorsBook/AppDelegate.swift": [1629349471, 807873525]
+  "/Users/hazuki/Desktop/13/la/lifeistech/MentorsBook/MentorsBook/SceneDelegate.swift": [1629349471, 818564949]

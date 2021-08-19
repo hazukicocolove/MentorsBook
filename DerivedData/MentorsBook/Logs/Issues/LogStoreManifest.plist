@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>AEB95E98-9996-4D67-A8D7-A7874CB606CD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>AEB95E98-9996-4D67-A8D7-A7874CB606CD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>MentorsBook-ewglzxleehupaddjpzfhkeskyrvy</string>
+			<key>timeStartedRecording</key>
+			<real>651048243.64143205</real>
+			<key>timeStoppedRecording</key>
+			<real>651048244.44883001</real>
+			<key>title</key>
+			<string>Build target MentorsBook</string>
+			<key>uniqueIdentifier</key>
+			<string>AEB95E98-9996-4D67-A8D7-A7874CB606CD</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
